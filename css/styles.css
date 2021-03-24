@@ -1,0 +1,76 @@
+body{
+
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+}
+.top-pattern{
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -400px;
+}
+.bottom-pattern{
+  position: absolute;
+  max-height: 500px;
+  max-width: 600px;
+  overflow: hidden;
+  margin-left: 740px;
+  margin-top: 440px;
+  margin-right: 0;
+}
+.pattern-card{
+  position: absolute;
+  width: 350px;
+  top:45%;
+  left: 40%;
+}
+img.svg{
+  border-radius: 20px 20px 0 0;
+}
+img.photo{
+  border-radius: 50%;
+  position: absolute;
+  border: solid white 5px;
+  margin-top: 360px;
+  margin-left: -10px;
+}
+.card{
+  background-color: white;
+  position: absolute;
+  width:350px;
+  height:400px;
+  left: 40%;
+  top: 45%;
+  border-radius: 20px;
+}
+.data{
+  position: absolute;
+  margin-top: 480px;
+  margin-left: 532px;
+}
+
+h3{
+  color: hsl(229, 23%, 23%);
+  font-weight: 400, 700;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+hr{
+  position: absolute;
+  color: hsl(0, 0%, 59%);
+  width: 347px;
+  margin-right: 230px;
+  border-bottom: none;
+}
+p{
+  color: hsl(227, 10%, 46%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+span{
+  color: hsl(227, 10%, 46%);
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-left: 10px;
+}
+div.followres, div.likes, div.photos{
+  float: left;
+  margin: 20px 30px auto 30px;
+}
